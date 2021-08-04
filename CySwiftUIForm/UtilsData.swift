@@ -34,7 +34,8 @@ class UtilsData: NSObject {
             let documentDirectory = try fm.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
             subUrlForm = documentDirectory.appendingPathComponent("forms.json")
             loadFileForm(mainPath: mainUrlForm!, subPath: subUrlForm!)
-            print(self.modelForms[0].modelFields[0].arrData)
+
+            print(self.modelForms[0].modelFields[0].arrData2?[0].strType)
             print(self.modelForms[0].modelFields[0].strOptions)
         } catch {
             print(error)

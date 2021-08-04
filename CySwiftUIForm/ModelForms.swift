@@ -52,7 +52,7 @@ class SampleData: ObservableObject {
     @Published var date2: Date = Date()
 }
 
-class ModelForms: Codable {
+class ModelForms: Codable,Identifiable {
     let id = UUID()
     var intColumn: Int
     var strTitleSection: String
@@ -78,7 +78,7 @@ class ModelForms: Codable {
 
 }
 
-class ModelField: Codable {
+class ModelField: Codable,Identifiable,ObservableObject {
     let id = UUID()
     var strTitle: String
     var strType: String
@@ -91,9 +91,11 @@ class ModelField: Codable {
     var strTypeData: String
     var strOptions: String
     var arrData: [String] = []
-    var strInput: String = ""
-    var intInput: Int = 0
-    var dateInput: Date = Date()
+    var arrData2: [ModelField]?
+    var strflow: String
+    @Published var strInput: String = ""
+    @Published var intInput: Int = 0
+    @Published var dateInput: Date = Date()
 
     var dictionary: [String: Any] {
         return
@@ -109,7 +111,8 @@ class ModelField: Codable {
                 "typeData": strTypeData,
                 "options": strOptions,
                 "data": arrData,
-
+                "data2": arrData2,
+                "flow" :strflow,
             ]
     }
     enum CodingKeys: String, CodingKey {
@@ -124,6 +127,9 @@ class ModelField: Codable {
         case strTypeData = "typeData"
         case strOptions = "options"
         case arrData = "data"
+        case arrData2 = "data2"
+        case strflow = "flow"
+
 
     }
 }
