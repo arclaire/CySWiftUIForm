@@ -20,6 +20,7 @@
 		8D05225C26AAC20000BEB72C /* ModelForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05225A26AAC20000BEB72C /* ModelForms.swift */; };
 		8D05225D26AAC20000BEB72C /* UtilsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05225B26AAC20000BEB72C /* UtilsData.swift */; };
 		8D05226A26ADB80C00BEB72C /* ModelFormInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05226926ADB80B00BEB72C /* ModelFormInput.swift */; };
+		8DC9C33B26BBBE4800BFB499 /* ViewForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9C33A26BBBE4800BFB499 /* ViewForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8D05225A26AAC20000BEB72C /* ModelForms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelForms.swift; sourceTree = "<group>"; };
 		8D05225B26AAC20000BEB72C /* UtilsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsData.swift; sourceTree = "<group>"; };
 		8D05226926ADB80B00BEB72C /* ModelFormInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFormInput.swift; sourceTree = "<group>"; };
+		8DC9C33A26BBBE4800BFB499 /* ViewForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		8D05221D26A8131A00BEB72C /* CySwiftUIForm */ = {
 			isa = PBXGroup;
 			children = (
+				8DC9C33A26BBBE4800BFB499 /* ViewForm.swift */,
 				8D05225A26AAC20000BEB72C /* ModelForms.swift */,
 				8D05225B26AAC20000BEB72C /* UtilsData.swift */,
 				8D05225526A971AB00BEB72C /* forms.json */,
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC9C33B26BBBE4800BFB499 /* ViewForm.swift in Sources */,
 				8D05221F26A8131A00BEB72C /* AppDelegate.swift in Sources */,
 				8D05225C26AAC20000BEB72C /* ModelForms.swift in Sources */,
 				8D05226A26ADB80C00BEB72C /* ModelFormInput.swift in Sources */,
