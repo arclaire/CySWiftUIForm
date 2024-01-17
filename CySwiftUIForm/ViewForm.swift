@@ -31,6 +31,7 @@ struct CellForm: View {
 
         if modelField.strType.lowercased() == "text" {
             Text(modelField.strTitle)
+            Color(.theme)
         }
         if modelField.strType.lowercased() == "segment"{
 

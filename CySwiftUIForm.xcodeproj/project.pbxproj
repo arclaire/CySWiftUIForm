@@ -21,6 +21,7 @@
 		8D05225D26AAC20000BEB72C /* UtilsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05225B26AAC20000BEB72C /* UtilsData.swift */; };
 		8D05226A26ADB80C00BEB72C /* ModelFormInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05226926ADB80B00BEB72C /* ModelFormInput.swift */; };
 		8DC9C33B26BBBE4800BFB499 /* ViewForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9C33A26BBBE4800BFB499 /* ViewForm.swift */; };
+		A805C43F2B57C2CB00BD0B89 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A805C43E2B57C2CB00BD0B89 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8D05225B26AAC20000BEB72C /* UtilsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsData.swift; sourceTree = "<group>"; };
 		8D05226926ADB80B00BEB72C /* ModelFormInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFormInput.swift; sourceTree = "<group>"; };
 		8DC9C33A26BBBE4800BFB499 /* ViewForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewForm.swift; sourceTree = "<group>"; };
+		A805C43E2B57C2CB00BD0B89 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		8D05221226A8131A00BEB72C = {
 			isa = PBXGroup;
 			children = (
+				A805C43E2B57C2CB00BD0B89 /* Localizable.xcstrings */,
 				8D05221D26A8131A00BEB72C /* CySwiftUIForm */,
 				8D05223726A8131C00BEB72C /* CySwiftUIFormTests */,
 				8D05224226A8131C00BEB72C /* CySwiftUIFormUITests */,
@@ -239,6 +242,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 8D05221226A8131A00BEB72C;
 			productRefGroup = 8D05221C26A8131A00BEB72C /* Products */;
@@ -258,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D05222E26A8131B00BEB72C /* LaunchScreen.storyboard in Resources */,
+				A805C43F2B57C2CB00BD0B89 /* Localizable.xcstrings in Resources */,
 				8D05225626A971AB00BEB72C /* forms.json in Resources */,
 				8D05222B26A8131B00BEB72C /* Preview Assets.xcassets in Resources */,
 				8D05222826A8131B00BEB72C /* Assets.xcassets in Resources */,
